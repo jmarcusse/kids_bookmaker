@@ -1,0 +1,15 @@
+# Chapter Name
+
+<!-- Write "# " followed by a chapter name to start a new page in your book -->
+
+This chapter has a picture of a tapir looking in a mirror. Maybe we should say something about it?
+
+## Subchapter name
+
+<!-- Write "## " followed by a subchapter name to start a new page in your book -->
+
+### Picture name
+
+<center><img src="images/example_picture_1.png" alt="Author" class="cover" width="500" height="500"/></center>
+
+<!-- Write "### " followed by a short description of a picture. In the next line, replace "images/Example_picture_1.png" with "images/" followed by the name of your picture.-->

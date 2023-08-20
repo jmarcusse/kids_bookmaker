@@ -1,0 +1,20 @@
+--- 
+title: "TITLE"
+author: "AUTHOR NAME"
+date: "Written on `r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+description: |
+  This is a minimal example of using the bookdown package to write a children's book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+output: html_document
+---
+
+<!-- Insert the title and the author's name into the section above. -->
+
+# 
+
+<!-- Replace placeholder_picture below with the name of your cover picture -->
+<center><img src="images/placeholder_picture.png"
+alt="Author" class="cover" width="400" height="400"/></center>

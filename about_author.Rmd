@@ -1,0 +1,5 @@
+# About the author
+
+<center><img src="images/author_placeholder.png" alt="Author" class="cover" width="400" height="400"/></center>
+
+<!-- Write a little bit about yourself -->

@@ -1,0 +1,76 @@
+:root{
+/* Color schemes*/
+/* Pastels: */
+  --primary-background: #ffcccc;
+  --primary-text: #222222;
+  --secondary-background: #ccccff;
+  --secondary-text: #222222;
+  --tertiary-background: #ffffcc;
+  --tertiary-text: #222222;
+  --quarternary-background: #ccffcc;
+  --quarternary-text: #222222;
+/* Forest Green: */
+/*  --primary-background: #0E5116;
+  --primary-text: #eeeeee;
+  --secondary-background: #1C5257;
+  --secondary-text: #eeeeee;
+  --tertiary-background: #681612;
+  --tertiary-text: #eeeeee;
+  --quarternary-background: #B17D4E;
+  --quarternary-text: #eeeeee; */
+/* Pale Blue + Gray: */
+/*  --primary-background: #3F8DA7;
+  --primary-text: #ffffff;
+  --secondary-background: #03455B;
+  --secondary-text: #ffffff;
+  --tertiary-background: #117394;
+  --tertiary-text: #ffffff;
+  --quarternary-background: #82BED3;
+  --quarternary-text: #ffffff;*/
+}
+body {
+  font-family: "Verdana";
+}
+.book .book-summary, .book .book-summary ul.summary li a  {
+  color: var(--primary-text);
+  background: var(--primary-background);
+  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-size: 16px;
+}
+.book .book-body .page-wrapper .page-inner section.normal h1 {
+  color: var(--secondary-text);
+  background: var(--secondary-background);
+  padding-left: 15px;
+  text-align:center;
+}
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+  color: var(--tertiary-text);
+  background: var(--tertiary-background);
+  max-width: 500px;
+  padding-left: 15px;
+}
+.book .book-body .page-wrapper .page-inner section.normal h3 {
+  color: var(--quarternary-text);
+  background: var(--quarternary-background);
+  max-width: 300px;
+  padding-left: 15px;
+}
+/* Don't edit below this line!*/
+a, a:link, a:hover, a:visited, a:active, .book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active>a {
+  color: inherit;
+  text-decoration: none;
+}
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
